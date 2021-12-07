@@ -1,6 +1,22 @@
-.tablero {
+.tablero4 {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.tablero6 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 10px;
+    max-width: 600px;
+    margin: 100px auto;
+}
+
+.tablero8 {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
     grid-gap: 10px;
     max-width: 600px;
     margin: 100px auto;
