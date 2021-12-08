@@ -17,7 +17,7 @@ const Tablero = () => {
   const [animando, setAnimando] = useState(false);
    useEffect(()=>{
     if(cantidadDePares == paresPosibles){
-      irA("/home")   
+      irA(`/ganaste/${id}`)   
     }
    },
    
